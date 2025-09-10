@@ -1,0 +1,22 @@
+/* Variable Roman (normal) */
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('NotoSerif-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;   /* variable axis range */
+    font-stretch: 75% 125%;
+    font-style: normal;
+  }
+  
+  /* Variable Italic */
+  @font-face {
+    font-family: 'Noto Serif';
+    src: url('NotoSerif-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-stretch: 75% 125%;
+    font-style: italic;
+  }
+  
+  body {
+    font-family: 'Noto Serif', serif;
+  }
+  
