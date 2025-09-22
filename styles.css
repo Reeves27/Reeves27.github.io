@@ -19,4 +19,15 @@
   body {
     font-family: 'Noto Serif', serif;
   }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card {
+    flex: 1 1 300px; /* grow, shrink, min-width */
+  }
+  
   
