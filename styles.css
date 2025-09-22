@@ -30,4 +30,9 @@
     flex: 1 1 300px; /* grow, shrink, min-width */
   }
   
+  .container {
+    width: 90%;   /* not 900px */
+    max-width: 1200px;
+    margin: auto;
+  }
   
