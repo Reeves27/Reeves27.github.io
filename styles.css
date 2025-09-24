@@ -36,15 +36,3 @@
     margin: auto;
   }
   
-  .iframe-wrapper {
-    width: 100%;
-    overflow-x: auto;   /* allow horizontal scroll on small screens */
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  .iframe-wrapper iframe {
-    width: 100%;
-    min-height: 400px;  /* pick a good default */
-    border: none;
-  }
-  
