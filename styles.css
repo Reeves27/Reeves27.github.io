@@ -38,6 +38,7 @@ h1 {
   font-size: 2rem;
 }
 
+/* home page css start*/
 #home-title {
   margin-bottom: 0.15rem;
   font-size: 3rem;
@@ -55,7 +56,7 @@ h1 {
   align-items: center;
   gap: 0.1rem;
 }
-#home-nav a{
+#home-nav a {
   margin: 0 0.6rem;
   display: flex;
   text-decoration: none;
@@ -73,7 +74,31 @@ h1 {
   font-weight: 500;
   text-decoration: underline;
 }
+/*home page CSS END*/
 
+
+/*XC rating styling START*/
+.topnav a {
+  float: left;
+  color: #000000;;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+#topnav a:hover {
+  color: #A5A4AC;
+  font-weight: 500;
+  text-decoration: underline;
+}
+#topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/*XC rating styling END*/
+
+/*wrappers*/
 
 .wrapper {
   display: flex;
